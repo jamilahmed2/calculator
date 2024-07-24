@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./assests/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assests/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assests/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assests/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assests/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assests/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assests/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assests/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assests/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assests/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assests/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assests/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assests/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Calculator -HTML, CSS, JS</title>
+    <!-- custome css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Calculator -->
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="result" readonly>
+        </div>
+        <div class="calc-keys-container">
+            <button onclick="toDisplay('+')" class="calc-key calc-key--operator">+</button>
+            <button onclick="toDisplay('-')" class="calc-key calc-key--operator">-</button>
+            <button onclick="toDisplay('*')" class="calc-key calc-key--operator">*</button>
+            <button onclick="toDisplay('/')" class="calc-key calc-key--operator">÷</button>
+            <button onclick="toDisplay('7')" class="calc-key">7</button>
+            <button onclick="toDisplay('8')" class="calc-key">8</button>
+            <button onclick="toDisplay('9')" class="calc-key">9</button>
+            <button onclick="toDisplay('4')" class="calc-key">4</button>
+            <button onclick="toDisplay('5')" class="calc-key">5</button>
+            <button onclick="toDisplay('6')" class="calc-key">6</button>
+            <button onclick="toDisplay('1')" class="calc-key">1</button>
+            <button onclick="toDisplay('2')" class="calc-key">2</button>
+            <button onclick="toDisplay('3')" class="calc-key">3</button>
+            <button onclick="toDisplay('0')" class="calc-key">0</button>
+            <button onclick="toDisplay('.')" class="calc-key">.</button>
+            <button onclick="clearDisplay()" class="calc-key AC">AC</button>
+            <button onclick="calculate()" class="calc-key calc-key--enter">=</button>
+        </div>
+    </div>
+</body>
+    <script src="./js/index.js"></script>c
+</html>
