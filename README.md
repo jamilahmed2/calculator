@@ -1,1 +1,1 @@
-# calculator
+#HTML,CSS, JavaScript calculator
